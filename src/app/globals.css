@@ -2,32 +2,108 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* Name: custom color palette
+       Author: Ilias Ism
+       URL: https://gradient.page */
+
+    /* CSS: .bg-gradient { background: var(--gradient) } */
+  
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+@layer base {
+  :root {
+    --gradient: #16BFFD;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+    --background: 208 63.699999999999996% 4.32%;
+    --foreground: 208 9.8% 97.7%;
+
+    --muted: 208 49% 16.200000000000003%;
+    --muted-foreground: 208 9.8% 55.4%;
+
+    --popover: 208 45.4% 7.0200000000000005%;
+    --popover-foreground: 208 9.8% 97.7%;
+
+    --card: 208 45.4% 7.0200000000000005%;
+    --card-foreground: 208 9.8% 97.7%;
+
+    --border: 208 49% 16.200000000000003%;
+    --input: 208 49% 16.200000000000003%;
+
+    --primary: 208 98% 54%;
+    --primary-foreground: 208 9.8% 5.4%;
+
+    --secondary: 208 49% 16.200000000000003%;
+    --secondary-foreground: 208 9.8% 97.7%;
+
+    --accent: 208 49% 16.200000000000003%;
+    --accent-foreground: 208 9.8% 97.7%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 208 9.8% 97.7%;
+
+    --ring: 208 98% 54%;
+    --radius: 0.5rem;
   }
 }
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.loader {
+  width: 45px;
+  aspect-ratio: .75;
+  --c: no-repeat linear-gradient(#000 0 0);
+  background:
+    var(--c) 0% 50%,
+    var(--c) 50% 50%,
+    var(--c) 100% 50%;
+  animation: l7 1s infinite linear alternate;
+}
+
+@keyframes l7 {
+  0% {
+    background-size: 20% 50%, 20% 50%, 20% 50%
+  }
+
+  20% {
+    background-size: 20% 20%, 20% 50%, 20% 50%
+  }
+
+  40% {
+    background-size: 20% 100%, 20% 20%, 20% 50%
+  }
+
+  60% {
+    background-size: 20% 50%, 20% 100%, 20% 20%
+  }
+
+  80% {
+    background-size: 20% 50%, 20% 50%, 20% 100%
+  }
+
+  100% {
+    background-size: 20% 50%, 20% 50%, 20% 50%
+  }
+}
+
+
+
+/*
+main {
+  min-height: 100vh;
+  overflow-y: scroll;
+  height: 100vh;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  overflow-x: hidden;
+}  */

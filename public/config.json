@@ -1,0 +1,369 @@
+{
+  "title": "Saidimu Wifi Hotspot",
+  "description": "The most affordable internet in town!",
+  "baseURL": "http://localhost/nxbill/index.php?_route=",
+  "mac": "00:1A:2B:3C:4D:5E",
+  "router": 1,
+  "plans": [
+    {
+      "id": 1,
+      "name": "Twiga",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 1000
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 2
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 2
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 50
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Simba",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 1250
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 4
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 4
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 100
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tembo",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 1500
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 6
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 6
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 150
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ndovu",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 1750
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 8
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 8
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 200
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Kiboko",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 2000
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 10
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 10
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 250
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Duma",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 2250
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 12
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 12
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 300
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Chui",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 2500
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 14
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 14
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 350
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Kifaru",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 2750
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 16
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 16
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 400
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Nyati",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 3000
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 18
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 18
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 450
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Twiga Plus",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 3250
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 20
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 20
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 500
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Simba Plus",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 3500
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 22
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 22
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 550
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "Tembo Plus",
+      "router": "1",
+      "price": {
+        "unit": "KES",
+        "value": 3750
+      },
+      "bandwidth": {
+        "up": {
+          "unit": "Mb/s",
+          "value": 24
+        },
+        "down": {
+          "unit": "Mb/s",
+          "value": 24
+        }
+      },
+      "limit": {
+        "type": "data",
+        "data": {
+          "unit": "GB",
+          "value": 600
+        },
+        "time": {
+          "unit": "days",
+          "value": 30
+        }
+      }
+    }
+  ]
+}
